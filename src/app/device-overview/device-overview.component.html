@@ -1,0 +1,8 @@
+<h2>All devices</h2>
+<ul class="heroes">
+    <li *ngFor="let device of devices">
+        <a routerLink="/devices/">
+            <span class="badge">{{device.assetTag}}</span> {{device.deviceName}}
+        </a>
+    </li>
+</ul>

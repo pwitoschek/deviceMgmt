@@ -1,0 +1,34 @@
+<div>
+    <label for="assetTag">device asset: </label>
+    <input id="assetTag" [(ngModel)]="device.assetTag" placeholder="assetTag">
+</div>
+<div>
+    <label for="deviceName">device name: </label>
+    <input id="deviceName" [(ngModel)]="device.deviceName" placeholder="deviceName">
+</div>
+<div>
+    <label for="deviceType">device type: </label>
+    <input id="deviceType" [(ngModel)]="device.deviceType" placeholder="deviceType">
+</div>
+<div>
+    <label for="dateReceived">dateReceived: </label>
+    <input id="dateReceived" [(ngModel)]="device.dateReceived" placeholder="dateReceived">
+</div>
+<div>
+    <label for="dateReturned">dateReturned: </label>:
+    <input id="dateReturned" [(ngModel)]="device.dateReturned" placeholder="dateReturned">
+</div>
+<div>
+    <label for="receivedBy">receivedBy: </label>:
+    <input id="receivedBy" [(ngModel)]="device.receivedBy" placeholder="receivedBy">
+</div>
+<div>
+    <label for="deviceStatus">deviceStatus: </label>:
+    <input id="deviceStatus" [(ngModel)]="device.deviceStatus" placeholder="deviceStatus">
+</div>
+<div>
+    <label for="os">os: </label>:
+    <input id="os" [(ngModel)]="device.os" placeholder="os">
+</div>
+
+<button type="button" (click)="onClick(device)">Create Device</button>
